@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="criar conta.css">
     <title>Crie sua Conta</title>
 </head>
 
 <body>
     <div>
-        <h1>Crie sua conta</h1>
+        <h1>FAZ TEU CADASTRO AE, CALABRESO</h1>
 
         <br>
-        <form action="form">
+        <div class="login"></div>
+        <div class="box"></div>
             <fieldset>
                 <div>
                     <label for="label">Nome:</label>
-                    <input type="text" name="Nome" id="Nome:">
+                    <input type="text" class="input" id="Nome:">
                 </div>
                 <div>
                     <label for="label">Email</label>
-                    <input type="email" name="Email:" id="Email:">
+                    <input type="email" class="input" id="Email:">
                 </div>
                 <div class="col 6 col-s-12">
                     <fieldset>
                <legend>Senha:</legend>
                <div class="row">
                 <div class="col-4 col-s-12">
+                    <div class="content">
+                        <input type="password" class="input" placeholder="Digite sua senha">
+                        <a href="#" class="a">Esqueceu a senha? </a>
+                        <hr>
+ 
+                    </div>
+
 
                 </div>
 
@@ -37,13 +46,13 @@
                 <div>
                     <label for="genero">Gênero:</label>
                     <label for="Masculino">
-                        <input type="radio" id="Masculino" name="genero" value="frontend">Masculino
-                        
+                        <input type="radio" id="Masculino" class="genero" value="frontend">Masculino
+              
                     </label>
                     <label for="feminino">
-                        <input type="radio" id="feminino" name="genero" value="backend">Feminino
+                        <input type="radio" id="feminino" class="genero" value="backend">Feminino
                     </label>
-                
+                <button class="button">ENTRAR</button>
                 </div>
 
             </fieldset>
